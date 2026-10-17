@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1_Score,ROC_AUC,Specificity,True_Positives,False_Negatives,True_Negatives,False_Positives,Threshold
+Decision_Tree,1.0,1.0,1.0,1.0,1.0,1.0,102,0,98,0,0.5
+Random_Forest,1.0,1.0,1.0,1.0,1.0,1.0,102,0,98,0,0.5
+Gradient_Boosting,1.0,1.0,1.0,1.0,1.0,1.0,102,0,98,0,0.5
+Logistic_Regression,0.735,0.7378640776699029,0.7450980392156863,0.7414634146341463,0.828531412565026,0.7244897959183674,76,26,71,27,0.5

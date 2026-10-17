@@ -1,0 +1,18 @@
+=== ABC LOGISTICS: TUNED DECISION TREE RULES (TRAINING SET ONLY) ===
+
+|--- num__Warehouse_Processing_Time <= 90.50
+|   |--- num__Vehicle_Age <= 7.50
+|   |   |--- num__Traffic_Congestion <= 3.50
+|   |   |   |--- class: 0
+|   |   |--- num__Traffic_Congestion >  3.50
+|   |   |   |--- num__Delivery_Distance <= 19.92
+|   |   |   |   |--- class: 0
+|   |   |   |--- num__Delivery_Distance >  19.92
+|   |   |   |   |--- cat__Weather_Condition_1 <= 0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cat__Weather_Condition_1 >  0.50
+|   |   |   |   |   |--- class: 0
+|   |--- num__Vehicle_Age >  7.50
+|   |   |--- class: 1
+|--- num__Warehouse_Processing_Time >  90.50
+|   |--- class: 1
