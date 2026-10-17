@@ -1,7 +1,8 @@
+streamlit
+plotly
 pandas
 numpy
-matplotlib
-seaborn
 scikit-learn
-streamlit
 joblib
+python-docx
+pypdf2
